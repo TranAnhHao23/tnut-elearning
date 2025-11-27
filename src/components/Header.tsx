@@ -45,7 +45,7 @@ const Header = () => {
                 {/* Logo */}
                 <Link href="/" className="flex-shrink-0">
                     <Image
-                        src="/images/logo.png"
+                        src="/images/logos.png"
                         alt="TNUT Logo"
                         width={300}
                         height={60}

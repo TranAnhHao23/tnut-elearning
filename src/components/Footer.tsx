@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="space-y-4">
                         <div className="inline-block">
                             <Image
-                                src="/images/logo.png"
+                                src="/images/logos.png"
                                 alt="TNUT Logo"
                                 width={300}
                                 height={60}

@@ -4,8 +4,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Đại học từ xa trường Kỹ thuật công nghiệp Thái Nguyên",
-  description: "Trường Kỹ thuật công nghiệp Thái Nguyên hệ đào tạo từ xa học trực tuyến các ngành kỹ thuật.",
+  title: 'Đại học Kỹ thuật Công nghiệp - Đại học Thái Nguyên',
+  description: 'Tuyển sinh đại học từ xa - Trường Đại học Kỹ thuật Công nghiệp Thái Nguyên',
+  icons: {
+    icon: '/images/image.png',
+  },
 };
 
 export default function RootLayout({
