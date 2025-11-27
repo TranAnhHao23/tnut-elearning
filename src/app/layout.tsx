@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Đại học Kỹ thuật Công nghiệp - Đại học Thái Nguyên',
   description: 'Tuyển sinh đại học từ xa - Trường Đại học Kỹ thuật Công nghiệp Thái Nguyên',
   icons: {
-    icon: '/images/image.png',
+    icon: 'favicon.ico',
   },
 };
 
