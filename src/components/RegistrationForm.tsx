@@ -60,9 +60,9 @@ const RegistrationForm = ({ isOpen, onClose }: RegistrationFormProps) => {
             phoneNumber: formData.phone,
             email: formData.email,
             educationLevel: "",
-            desiredSchool: "DHKTCNTN", // Adapted for DHKTCNTN
+            desiredSchool: "DHKTCNTN",
             desiredMajor: formData.program,
-            registerSource: "elearning-tnut.edu.vn", // Adapted source
+            registerSource: "tnut.e-class.edu.vn",
             utm_source: utmParams.utm_source,
             utm_medium: utmParams.utm_medium,
             utm_campaign: utmParams.utm_campaign,
