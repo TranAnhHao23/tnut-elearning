@@ -68,9 +68,9 @@ const Footer = () => {
                                 <MapPin size={18} className="mr-2 mt-1 flex-shrink-0" />
                                 <div>
                                     <p className="font-semibold">Hà Nội:</p>
-                                    <span>Số 116 Trần Vỹ, Mai Dịch, Cầu Giấy, Hà Nội</span>
+                                    <span>Số 116 Trần Vỹ, Phường Phú Diễn, Thành phố Hà Nội</span>
                                     <p className="font-semibold mt-2">Hồ Chí Minh:</p>
-                                    <span>Số 91 Ký Con, Nguyễn Thái Bình, Quận 1, TP.HCM</span>
+                                    <span>Số 91 Ký Con, Phường Bến Thành, TP.HCM</span>
                                 </div>
                             </li>
                             <li className="flex items-center">

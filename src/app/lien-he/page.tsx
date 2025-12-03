@@ -25,8 +25,8 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-gray-800 text-lg">Địa chỉ</h3>
-                                    <p className="text-gray-600"><strong>Hà Nội:</strong> Số 116 Trần Vỹ, Mai Dịch, Cầu Giấy, Hà Nội</p>
-                                    <p className="text-gray-600 mt-1"><strong>Hồ Chí Minh:</strong> Số 91 Ký Con, Nguyễn Thái Bình, Quận 1, TP.HCM</p>
+                                    <p className="text-gray-600"><strong>Hà Nội:</strong> Số 116 Trần Vỹ, Phường Phú Diễn, Thành phố Hà Nội</p>
+                                    <p className="text-gray-600 mt-1"><strong>Hồ Chí Minh:</strong> Số 91 Ký Con, Phường Bến Thành, TP.HCM</p>
                                 </div>
                             </div>
 

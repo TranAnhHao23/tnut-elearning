@@ -67,8 +67,8 @@ export default function AdmissionSchedulePage() {
                         <h2 className="text-2xl font-bold text-[#0056b3] mb-4 border-b pb-2">Liên hệ tư vấn</h2>
                         <p className="text-gray-700">
                             <strong>Văn phòng tuyển sinh:</strong><br />
-                            <strong>Hà Nội:</strong> Số 116 Trần Vỹ, Mai Dịch, Cầu Giấy, Hà Nội<br />
-                            <strong>Hồ Chí Minh:</strong> Số 91 Ký Con, Nguyễn Thái Bình, Quận 1, TP.HCM<br />
+                            <strong>Hà Nội:</strong> Số 116 Trần Vỹ, Phường Phú Diễn, Thành phố Hà Nội<br />
+                            <strong>Hồ Chí Minh:</strong> Số 91 Ký Con, Phường Bến Thành, TP.HCM<br />
                             <strong>Hotline:</strong> 0965.020.747<br />
                             <strong>Email:</strong> tuyensinh@e-class.edu.vn
                         </p>
