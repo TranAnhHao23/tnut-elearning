@@ -108,7 +108,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-8 pt-6 border-t border-white/20 text-center text-sm">
-                    <p>© 2021 Đại học Thái Nguyên - Trung tâm Đào tạo Từ xa. All rights reserved.</p>
+                    <p>© 2021 Đại học Kỹ thuật Công nghiệp Thái Nguyên - Trung tâm Đào tạo Từ xa. All rights reserved.</p>
                 </div>
             </div>
         </footer>
