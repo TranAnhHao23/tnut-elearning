@@ -7,7 +7,9 @@ export interface Major {
         introduction?: string;
         targetAudience: string[];
         admissionMethod: string[];
-        trainingTime: string[];
+        credits: any;
+        coursesTotal: any;
+        trainingTime: string;
         advantages: { title: string; description: string }[];
         jobOpportunities?: string[];
     };
@@ -18,18 +20,17 @@ export const majors: Major[] = [
         slug: 'ngon-ngu-anh',
         name: 'Ngôn ngữ Anh',
         image: '/images/nna.jpg',
-        description: 'Ngành Ngôn ngữ Anh chuyên ngành Tiếng Anh Khoa học kỹ thuật và công nghệ tại trường Đại học Kỹ thuật công nghiệp Thái Nguyên trang bị cho học viên kiến thức chuyên sâu về ngôn ngữ Anh, đồng thời tập trung vào các thuật ngữ và kỹ năng giao tiếp chuyên nghiệp trong các lĩnh vực kỹ thuật và công nghệ.',
+        description: 'Ngành Ngôn ngữ Anh chuyên ngành Tiếng Anh Khoa học kỹ thuật và công nghệ tại trường Đại học Kỹ thuật công nghiệp Thái Nguyên trang bị cho học viên kiến thức chuyên sâu về ngôn ngữ Anh, đồng thời tập trung vào các thuật ngữ và kỹ năng giao tiếp chuyên nghiệp trong các lĩnh vực kỹ thuật và công nghệ. Học viên sẽ học cách sử dụng tiếng Anh trong các bối cảnh chuyên ngành, phát triển khả năng giao tiếp hiệu quả và phục vụ nhu cầu hội nhập quốc tế trong lĩnh vực kỹ thuật và công nghệ.',
         content: {
-            introduction: 'Chương trình đào tạo từ xa ngành Ngôn ngữ Anh chuyên ngành Tiếng Anh Khoa học kỹ thuật và công nghệ của trường Đại học Kỹ thuật công nghiệp Thái Nguyên được thiết kế để đáp ứng nhu cầu học tập linh hoạt cho người học. Học viên có thể linh hoạt học tập mà không bị giới hạn bởi vị trí địa lý, đồng thời áp dụng ngay những kiến thức học được vào thực tế công việc.',
+            introduction: 'Chương trình đào tạo từ xa ngành Ngôn ngữ Anh chuyên ngành Tiếng Anh Khoa học kỹ thuật và công nghệ của trường Đại học Kỹ thuật công nghiệp Thái Nguyên được thiết kế để đáp ứng nhu cầu học tập linh hoạt cho người học. Học viên có thể linh hoạt học tập mà không bị giới hạn bởi vị trí địa lý, đồng thời áp dụng ngay những kiến thức học được vào thực tế công việc. Hình thức học trực tuyến đã giúp học viên phá bỏ rào cản phải đến trường của hình thức học truyền thống.',
             targetAudience: [
                 'Tốt nghiệp THPT hoặc tương đương.',
                 'Cán bộ, nhân viên muốn nâng cao trình độ tiếng Anh.',
             ],
             admissionMethod: ['Xét tuyển hồ sơ.'],
-            trainingTime: [
-                'Tốt nghiệp THPT: 4 năm.',
-                'Văn bằng 2: 2 - 2.5 năm.',
-            ],
+            credits: 128,
+            coursesTotal: 59,
+            trainingTime: 'Từ 2- 4 năm',
             advantages: [
                 { title: 'Công nghệ tiên tiến', description: 'Chương trình học áp dụng E-Learning hiện đại.' },
                 { title: 'Giảng viên giàu kinh nghiệm', description: '100% GS, TS, ThS từ trường.' },
@@ -58,11 +59,9 @@ export const majors: Major[] = [
                 'Không giới hạn độ tuổi, có nguyện vọng học tập.',
             ],
             admissionMethod: ['Xét tuyển theo hồ sơ đăng ký, không thi tuyển.'],
-            trainingTime: [
-                'Tốt nghiệp THPT hoặc tương đương: 4,0 – 4,5 năm.',
-                'Có bằng Trung cấp cùng/ngành gần: 2,0 – 4,0 năm.',
-                'Có bằng Đại học, Cao đẳng: 2,0 – 3,5 năm.',
-            ],
+            credits: "Đang cập nhật",
+            coursesTotal: "Đang cập nhật",
+            trainingTime: 'Từ 2 - 4 năm',
             advantages: [
                 { title: 'Công nghệ tiên tiến', description: 'E-Learning hiện đại, môi trường học tập trực tuyến.' },
                 { title: 'Giảng viên giỏi', description: 'Đội ngũ GS, TS, ThS có kinh nghiệm.' },
@@ -83,18 +82,17 @@ export const majors: Major[] = [
         slug: 'xay-dung-dan-dung',
         name: 'Kỹ thuật xây dựng',
         image: '/images/xd.jpg',
-        description: 'Ngành Kỹ thuật xây dựng dân dụng có mặt ở mọi cấp độ: trong phạm vi công cộng, nhà nước đến tư nhân, và rộng hơn là trên khu vực và quốc tế.',
+        description: 'Ngành Kỹ thuật xây dựng – Xây dựng Dân dụng và Công nghiệp đào tạo học viên kiến thức và kỹ năng về thiết kế, thi công và quản lý các công trình xây dựng dân dụng và công nghiệp, bao gồm nhà ở, cầu đường, nhà máy, và các cơ sở hạ tầng khác.',
         content: {
-            introduction: 'Chương trình đào tạo cung cấp kiến thức toàn diện về thiết kế, thi công, quản lý công trình xây dựng, đáp ứng nhu cầu phát triển của ngành xây dựng Việt Nam.',
+            introduction: 'Ngành Kỹ thuật xây dựng – Xây dựng Dân dụng và Công nghiệp hệ đào tạo từ xa mang lại sự linh hoạt tối ưu cho học viên, loại bỏ nhu cầu đến trường lớp. Thông qua nền tảng trực tuyến hiện đại, với tài liệu giảng dạy và video bài giảng, học viên có thể tiếp thu kiến thức và kỹ năng tương đương với hệ chính quy, từ bất kỳ đâu và bất kỳ lúc nào.',
             targetAudience: [
                 'Người làm trong lĩnh vực xây dựng muốn chuẩn hóa bằng cấp.',
                 'Tốt nghiệp THPT yêu thích ngành xây dựng.',
             ],
             admissionMethod: ['Xét tuyển hồ sơ.'],
-            trainingTime: [
-                'Tốt nghiệp THPT: 4.5 năm.',
-                'Liên thông từ TC, CĐ: 2.5 - 3.5 năm.',
-            ],
+            credits: "141 - 161",
+            coursesTotal: "56 - 64",
+            trainingTime: 'Từ 2,2 - 4,5 năm',
             advantages: [
                 { title: 'Thực tiễn cao', description: 'Chương trình bám sát thực tế ngành.' },
                 { title: 'Giảng viên giàu kinh nghiệm', description: 'Đội ngũ chuyên gia đầu ngành.' },
@@ -114,18 +112,17 @@ export const majors: Major[] = [
         slug: 'quan-ly-cong-nghiep',
         name: 'Quản lý công nghiệp',
         image: '/images/qlcn.jpg',
-        description: 'Ngành Quản Lý Công Nghiệp được đánh giá là một ngành học có nhiều triển vọng nghề nghiệp trong tương lai với cơ hội việc làm rộng mở.',
+        description: 'Ngành Quản lý Công nghiệp chuyên đào tạo về việc quản lý và tối ưu hóa quy trình sản xuất, chuỗi cung ứng và các hoạt động công nghiệp.',
         content: {
-            introduction: 'Sự kết hợp giữa kỹ thuật và quản trị kinh doanh, đào tạo nhà quản lý có tư duy kỹ thuật và kỹ năng quản trị hiện đại.',
+            introduction: 'Ngành Quản lý Công nghiệp hệ đào tạo từ xa mang đến sự linh hoạt tối ưu cho học viên, cho phép họ tiếp cận kiến thức quản lý công nghiệp mà không cần đến lớp học truyền thống. Thông qua nền tảng trực tuyến hiện đại, tài liệu giảng dạy và video bài giảng, học viên có thể học tập và nâng cao kỹ năng quản lý công nghiệp từ bất kỳ đâu và vào thời gian phù hợp với mình.',
             targetAudience: [
                 'Quản lý cấp trung, tổ trưởng sản xuất muốn nâng cao trình độ.',
                 'Sinh viên yêu thích quản trị và kỹ thuật.',
             ],
             admissionMethod: ['Xét tuyển hồ sơ.'],
-            trainingTime: [
-                'Tốt nghiệp THPT: 4 năm.',
-                'Văn bằng 2: 2 năm.',
-            ],
+            credits: "127",
+            coursesTotal: "48",
+            trainingTime: 'Từ 2,2 - 4,5 năm',
             advantages: [
                 { title: 'Đa năng', description: 'Làm việc ở nhiều vị trí quản lý.' },
                 { title: 'Giảng viên chuyên nghiệp', description: 'Đội ngũ giảng dạy giàu kinh nghiệm.' },
@@ -145,18 +142,17 @@ export const majors: Major[] = [
         slug: 'kinh-te-cong-nghiep',
         name: 'Kinh tế công nghiệp',
         image: '/images/ktcn.jpg',
-        description: 'Mục tiêu đào tạo của ngành Kinh tế công nghiệp chính là đào tạo ra đội ngũ nguồn nhân lực chất lượng cao về kinh tế và quản lý trong các lĩnh vực công nghiệp, năng lượng.',
+        description: 'Ngành Kinh tế công nghiệp có tên tiếng Anh là Industrial economics. Kinh tế công nghiệp là một chuyên ngành Kinh tế học thuộc lĩnh vực kinh tế học ứng dụng, chuyên nghiên cứu về cơ cấu, tổ chức ngành, năng lực cạnh tranh giữa các ngành và tiểu ngành kinh tế.',
         content: {
-            introduction: 'Chương trình đào tạo cử nhân kinh tế có hiểu biết sâu về hoạt động công nghiệp, phân tích và hoạch định chiến lược kinh tế trong bối cảnh hội nhập quốc tế.',
+            introduction: 'Ngành Kinh tế công nghiệp hệ đào tạo từ xa mang đến cơ hội học tập linh hoạt và tiện lợi, giúp học viên tiếp cận kiến thức chuyên sâu mà không cần phải đến lớp truyền thống. Thông qua nền tảng trực tuyến hiện đại, với tài liệu học tập và video giảng dạy, học viên có thể dễ dàng khám phá và áp dụng các nguyên tắc kinh tế công nghiệp từ bất kỳ đâu, vào thời điểm thuận tiện nhất cho mình.',
             targetAudience: [
                 'Nhân viên kế toán, tài chính, kinh doanh trong các doanh nghiệp công nghiệp.',
                 'Tốt nghiệp THPT quan tâm đến kinh tế công nghiệp.',
             ],
             admissionMethod: ['Xét tuyển hồ sơ.'],
-            trainingTime: [
-                'Tốt nghiệp THPT: 4 năm.',
-                'Liên thông: 2 - 3 năm.',
-            ],
+            credits: "129",
+            coursesTotal: "47",
+            trainingTime: 'Từ 2,2 - 4,5 năm',
             advantages: [
                 { title: 'Chuyên sâu', description: 'Kiến thức đặc thù lĩnh vực công nghiệp.' },
                 { title: 'Đội ngũ chất lượng', description: 'Giảng viên giàu kinh nghiệm.' },

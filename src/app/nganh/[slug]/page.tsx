@@ -6,6 +6,7 @@ import { majors } from '@/data/majors';
 import RegistrationForm from '@/components/RegistrationForm';
 import { useState } from 'react';
 import { useParams } from 'next/navigation';
+import { FaLaptopCode, FaChalkboardTeacher, FaFileSignature, FaHome } from 'react-icons/fa';
 
 export default function MajorPage() {
     const params = useParams();
@@ -35,19 +36,19 @@ export default function MajorPage() {
                     <div className="bg-blue-50 border-l-4 border-[#0056b3] p-6 mb-6">
                         <div className="grid grid-cols-3 gap-4 text-center mb-4">
                             <div>
-                                <p className="text-3xl font-bold text-[#0056b3]">128</p>
+                                <p className="text-3xl font-bold text-[#0056b3]">{major.content.credits}</p>
                                 <p className="text-sm text-gray-600">Tín chỉ</p>
                             </div>
                             <div>
-                                <p className="text-3xl font-bold text-[#0056b3]">59</p>
+                                <p className="text-3xl font-bold text-[#0056b3]">{major.content.coursesTotal}</p>
                                 <p className="text-sm text-gray-600">Môn học</p>
                             </div>
                             <div>
-                                <p className="text-3xl font-bold text-[#0056b3]">2-4</p>
-                                <p className="text-sm text-gray-600">Năm</p>
+                                <p className="text-3xl font-bold text-[#0056b3]">{major.content.trainingTime}</p>
+                                <p className="text-sm text-gray-600">Thời gian đào tạo</p>
                             </div>
                         </div>
-                        <p className="text-center text-gray-700 font-semibold">Tối thiểu từ 2 - 4 năm</p>
+                        {/* <p className="text-center text-gray-700 font-semibold">Tối thiểu từ 2 - 4 năm</p> */}
                     </div>
 
                     <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
@@ -62,7 +63,7 @@ export default function MajorPage() {
                         >
                             Đăng ký tuyển sinh
                         </button>
-                        <p className="text-sm text-gray-600 mt-2">Tư vấn chuyên nghiệp. Thủ tục nhanh gọn. Ưu tiên nộp hồ sơ sớm.</p>
+                        {/* <p className="text-sm text-gray-600 mt-2">Tư vấn chuyên nghiệp. Thủ tục nhanh gọn. Ưu tiên nộp hồ sơ sớm.</p> */}
                     </div>
                 </section>
 
@@ -125,39 +126,40 @@ export default function MajorPage() {
                     <h2 className="text-3xl font-bold text-[#0056b3] mb-8 text-center">
                         Ưu điểm khi theo học từ xa tại Trường Đại học Kỹ thuật Công nghiệp Thái Nguyên
                     </h2>
+
                     <div className="grid md:grid-cols-2 gap-8">
-                        <div className="text-center p-6 bg-white border-2 border-gray-200 rounded-lg hover:border-[#0056b3] transition">
-                            <div className="text-5xl mb-4">💻</div>
+                        <div className="text-center p-6 bg-white border-2 border-gray-200 rounded-lg hover:border-[#0056b3] transition group">
+                            <FaLaptopCode className="w-12 h-12 mx-auto text-[#0056b3] mb-4 group-hover:scale-110 transition-transform" />
                             <h3 className="text-xl font-bold text-[#0056b3] mb-3">Công nghệ tiên tiến</h3>
                             <p className="text-gray-700">
                                 Chương trình học áp dụng phương pháp đào tạo trực tuyến theo hình thức E-Learning hiện đại, tạo ra môi trường học tập và trao đổi online thuận lợi nhất cho sinh viên.
                             </p>
                         </div>
-                        <div className="text-center p-6 bg-white border-2 border-gray-200 rounded-lg hover:border-[#0056b3] transition">
-                            <div className="text-5xl mb-4">👨‍🏫</div>
+                        <div className="text-center p-6 bg-white border-2 border-gray-200 rounded-lg hover:border-[#0056b3] transition group">
+                            <FaChalkboardTeacher className="w-12 h-12 mx-auto text-[#0056b3] mb-4 group-hover:scale-110 transition-transform" />
                             <h3 className="text-xl font-bold text-[#0056b3] mb-3">Giảng viên giàu kinh nghiệm</h3>
                             <p className="text-gray-700">
                                 100% giảng viên là các GS, Tiến sỹ, Thạc sỹ đang công tác tại trường, cùng với đội ngũ hỗ trợ của nhà trường luôn sẵn sàng tư vấn cho sinh viên 24/7.
                             </p>
                         </div>
-                        <div className="text-center p-6 bg-white border-2 border-gray-200 rounded-lg hover:border-[#0056b3] transition">
-                            <div className="text-5xl mb-4">📝</div>
+                        <div className="text-center p-6 bg-white border-2 border-gray-200 rounded-lg hover:border-[#0056b3] transition group">
+                            <FaFileSignature className="w-12 h-12 mx-auto text-[#0056b3] mb-4 group-hover:scale-110 transition-transform" />
                             <h3 className="text-xl font-bold text-[#0056b3] mb-3">Không thi đầu vào</h3>
                             <p className="text-gray-700">
                                 TT Đào tạo từ xa thuộc Đại học Kỹ thuật công nghiệp - Đại học Thái Nguyên chỉ áp dụng tuyển sinh theo một hình thức duy nhất đó là xét tuyển áp dụng với tất cả đối tượng học viên.
                             </p>
                         </div>
-                        <div className="text-center p-6 bg-white border-2 border-gray-200 rounded-lg hover:border-[#0056b3] transition">
-                            <div className="text-5xl mb-4">🏠</div>
+                        <div className="text-center p-6 bg-white border-2 border-gray-200 rounded-lg hover:border-[#0056b3] transition group">
+                            <FaHome className="w-12 h-12 mx-auto text-[#0056b3] mb-4 group-hover:scale-110 transition-transform" />
                             <h3 className="text-xl font-bold text-[#0056b3] mb-3">Không cần đến trường</h3>
                             <p className="text-gray-700">
                                 Chỉ cần có mạng internet là bạn có thể học bất cứ lúc nào, bất cứ nơi đâu. Môi trường học tập online không hề thua kém so với môi trường học tập truyền thống.
                             </p>
                         </div>
                     </div>
-                    <div className="mt-8 text-center">
+                    {/* <div className="mt-8 text-center">
                         <p className="text-red-600 font-bold mb-4">Chỉ tiêu có hạn</p>
-                    </div>
+                    </div> */}
                 </section>
 
                 {/* CTA Section */}
