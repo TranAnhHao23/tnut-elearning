@@ -111,11 +111,14 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-xl border border-gray-200 text-center">
-              <div className="border-4 border-[#0056b3] p-4 inline-block rounded-lg mb-4">
-                <span className="text-4xl font-bold text-[#0056b3]">BẰNG CỬ NHÂN</span>
-              </div>
-              <p className="text-gray-500 italic">Mẫu văn bằng mới nhất</p>
+            <div className="bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden">
+              <iframe
+                className="w-full aspect-video"
+                src="https://www.youtube.com/embed/nZvtnzMb0PA"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
@@ -161,12 +164,7 @@ export default function Home() {
           {/* Feature Section */}
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden shadow-xl">
-              {/* Placeholder for Lecture Hall Image since generation failed */}
-              <div className="absolute inset-0 bg-gray-300 flex items-center justify-center">
-                <span className="text-gray-500 font-bold text-xl">Ảnh Giảng Đường</span>
-              </div>
-              {/* If you have a real image, uncomment below */}
-              {/* <Image src="/images/lecture-hall.jpg" alt="Giảng đường" fill className="object-cover" /> */}
+              <Image src="/images/giang-duong.png" alt="Giảng đường" fill className="object-cover" />
             </div>
             <div className="text-left space-y-8">
               <div>

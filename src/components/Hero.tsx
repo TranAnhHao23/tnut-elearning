@@ -8,9 +8,17 @@ interface HeroProps {
 
 const Hero = ({ onRegister }: HeroProps) => {
     return (
-        <section className="relative bg-cover bg-center min-h-[500px] flex items-center" style={{ backgroundImage: 'url(/images/banner.jpg)' }}>
-            <div className="absolute inset-0 bg-black/40"></div>
-            <div className="container mx-auto px-4 relative z-10 text-white">
+        <section className="relative min-h-[500px] flex items-center">
+            <Image
+                src="/images/banner-new.png"
+                alt="TNUT Banner"
+                fill
+                priority
+                className="object-cover object-center z-0"
+                quality={100}
+            />
+            <div className="absolute inset-0 bg-black/40 z-10"></div>
+            <div className="container mx-auto px-4 relative z-20 text-white">
                 <div className="max-w-2xl">
                     <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
                         Đào tạo Đại học hệ từ xa.<br />
