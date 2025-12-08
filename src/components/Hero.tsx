@@ -8,9 +8,9 @@ interface HeroProps {
 
 const Hero = ({ onRegister }: HeroProps) => {
     return (
-        <section className="relative min-h-[500px] flex items-center">
+        <section className="relative h-[650px] flex items-center">
             <Image
-                src="/images/banner-new.png"
+                src="/images/banner-v1.jpg"
                 alt="TNUT Banner"
                 fill
                 priority
