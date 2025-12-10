@@ -22,7 +22,7 @@ export default function AdmissionSchedulePage() {
                                 <ul className="list-circle list-inside ml-6 mt-1 space-y-1">
                                     <li>Cán bộ công chức, người đang đi làm.</li>
                                     <li>Sinh viên đang học tại các trường Cao đẳng, Đại học.</li>
-                                    <li>Người đã có bằng Đại học, Cao đẳng, Trung cấp muốn học văn bằng 2 hoặc liên thông.</li>
+                                    <li>Người đã có bằng Đại học, Cao đẳng, Trung cấp muốn học văn bằng thứ 2</li>
                                     <li>Học sinh vừa tốt nghiệp THPT.</li>
                                 </ul>
                             </li>
