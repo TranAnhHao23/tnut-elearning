@@ -89,7 +89,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Không ghi hình thức đào tạo</h3>
-                  <p className="text-gray-600">Trên văn bằng không còn ghi hình thức đào tạo là "Từ xa" hay "Vừa làm vừa học".</p>
+                  <p className="text-gray-600">Trên văn bằng không còn ghi hình thức đào tạo là "Từ xa".</p>
                 </div>
               </div>
               <div className="flex items-start">
