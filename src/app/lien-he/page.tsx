@@ -36,7 +36,7 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-gray-800 text-lg">Hotline</h3>
-                                    <p className="text-gray-600 font-bold text-lg">0965.020.747</p>
+                                    <p className="text-gray-600 font-bold text-lg">0859.811.188</p>
                                 </div>
                             </div>
 
@@ -46,7 +46,7 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-gray-800 text-lg">Email</h3>
-                                    <p className="text-gray-600">tuyensinh@e-class.edu.vn</p>
+                                    <p className="text-gray-600">rhu.education.vn@gmail.com</p>
                                 </div>
                             </div>
                         </div>
