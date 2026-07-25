@@ -70,7 +70,7 @@ export default function AdmissionSchedulePage() {
                             <strong>Hà Nội:</strong> Số 116 Trần Vỹ, Phường Phú Diễn, Thành phố Hà Nội<br />
                             <strong>Hồ Chí Minh:</strong> Số 91 Ký Con, Phường Bến Thành, TP.HCM<br />
                             <strong>Hotline:</strong> 0859.811.188<br />
-                            <strong>Email:</strong> rhu.education.vn@gmail.com
+                            <strong>Email:</strong> thu.education.vn@gmail.com
                         </p>
                     </section>
                 </div>
